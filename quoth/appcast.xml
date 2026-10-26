@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Quoth</title>
+        <item>
+            <title>0.1</title>
+            <pubDate>Mon, 26 Oct 2026 22:55:37 +0400</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Initial release.
+]]></description>
+            <enclosure url="https://github.com/faciledictu/quoth-releases/releases/download/v0.1/Quoth-0.1.dmg" length="6258091" type="application/octet-stream" sparkle:edSignature="2Z6MiJNFaoMwKUqKvXZ0DaIqDkgySepAdG2BlmYZI3DR0SoB3qVI159zn3nSl7lz3Ds2ydlRd2DaPDPiESR3Ag=="/>
+        </item>
+    </channel>
+</rss>
