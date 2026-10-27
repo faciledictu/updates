@@ -3,6 +3,20 @@
     <channel>
         <title>Quoth</title>
         <item>
+            <title>0.2</title>
+            <pubDate>Tue, 27 Oct 2026 18:51:05 +0400</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- **Translation into English.** Dictate in any language and get English text. Translate on your Mac with Apple Intelligence or macOS Translation, or online with your own OpenAI or Groq key. If a dictation can't be translated, it still arrives as you said it, with the reason shown under the text.
+- **Online services in Settings → Models.** Connect Groq or OpenAI once, add your key, and choose them for recognition, translation, or both.
+- **Settings rearranged** into General, Dictation, Recognition, and Models. Ready models and translators are marked with a green check.
+- **Paste access in one row.** Both permissions Quoth needs for pasting are requested from a single row, and you can turn off putting your clipboard back after a paste.
+- **Check for updates** now lives in Settings → General.
+]]></description>
+            <enclosure url="https://github.com/faciledictu/quoth-releases/releases/download/v0.2/Quoth-0.2.dmg" length="6453563" type="application/octet-stream" sparkle:edSignature="dNiax0Ox5kH/63FQNNXYH25Sf41Lal5nSRvfrWFnCJEvbWULUQa+fvAHQxpKzDS2jPV0HN50uLcYVsJhhfdSCA=="/>
+        </item>
+        <item>
             <title>0.1</title>
             <pubDate>Mon, 26 Oct 2026 22:55:37 +0400</pubDate>
             <sparkle:version>1</sparkle:version>
