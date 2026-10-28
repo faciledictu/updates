@@ -3,6 +3,26 @@
     <channel>
         <title>Quoth</title>
         <item>
+            <title>0.3</title>
+            <pubDate>Wed, 28 Oct 2026 18:21:51 +0400</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- **Your dictionary.** In Settings → Recognition → Dictionary, tell Quoth how to write your words, whatever ending they take (пиар → PR). To add one, select it under a result.
+- **Translation with context.** Online translators see your last few dictations in the same app, so pronouns come out right.
+- **More online services.** Google's Gemini 3.5 Transcribe recognizes speech and listens for your dictionary's words. Anthropic's Claude translates. OpenAI's translation model can be chosen.
+- **Fixes.** A model load cut short, for example by low memory, is no longer reported as a damaged model. Turning microphone access off shows at once. A translation language macOS hasn't downloaded points to System Settings.
+
+---
+
+- **Ваш словарь.** В Настройках → Распознавание → Словарь объясните Quoth, как писать ваши слова, с любым окончанием (пиар → PR). Чтобы добавить слово, выделите его под результатом.
+- **Перевод с контекстом.** Онлайн-переводчики видят несколько ваших последних диктовок в том же приложении, поэтому местоимения переводятся верно.
+- **Больше онлайн-сервисов.** Gemini 3.5 Transcribe от Google распознаёт речь и прислушивается к словам из словаря. Claude от Anthropic переводит. У OpenAI можно выбрать модель перевода.
+- **Исправления.** Прерванная загрузка модели, например из-за нехватки памяти, больше не называется повреждённой моделью. Выключенный доступ к микрофону виден сразу. Если язык перевода не загружен, Quoth ведёт в Системные настройки.
+]]></description>
+            <enclosure url="https://github.com/faciledictu/quoth-releases/releases/download/v0.3/Quoth-0.3.dmg" length="6826762" type="application/octet-stream" sparkle:edSignature="ehJfPCMMjvinpMVbCnjUeBq3b9BNpuQYA9YMrqD/cMvJmC/4Ef+f10zHOO5uTS5/KlvI1yM75Lyv5x+EQ8GTCw=="/>
+        </item>
+        <item>
             <title>0.2</title>
             <pubDate>Tue, 27 Oct 2026 18:51:05 +0400</pubDate>
             <sparkle:version>2</sparkle:version>
