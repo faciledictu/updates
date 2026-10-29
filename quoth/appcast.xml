@@ -3,6 +3,28 @@
     <channel>
         <title>Quoth</title>
         <item>
+            <title>0.4</title>
+            <pubDate>Thu, 29 Oct 2026 18:25:04 +0400</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- **Translate by key.** Settings → Dictation has a second set of keys, Dictation Keys in English: dictate with them and the text comes out in English, with the usual keys it stays as you said it. No translation switch to forget. In the menu bar window, ⌥⌘R dictates in English.
+- **Updates.** Quoth checks for updates by itself, and a new version shows in the menu bar window as Update to Quoth…. You can turn checking off in Settings → General.
+- **Clearer setup.** Pasting and single dictation keys turn on once macOS allows them, so nothing you pick sits there doing nothing. Where pasting can't be allowed, Just Copy turns it off. Disconnecting a service removes its key too.
+- **Tidier.** Shorter captions, About Quoth in the menu bar window, Clear and Copy under the text, a green check on models already on this Mac.
+- **Fixes.** On a Mac with British English, translation no longer says English isn't downloaded.
+
+---
+
+- **Перевод по клавише.** В Настройках → Диктовка есть вторая группа клавиш, «Клавиши для диктовки по-английски»: диктуете ими — текст выходит на английском, обычными — как сказано. Переключателя, который забываешь выключить, больше нет. В окне под иконкой по-английски диктует ⌥⌘R.
+- **Обновления.** Quoth сам проверяет обновления, а новая версия появляется в окне под иконкой строкой «Обновить Quoth до…». Проверку можно выключить в Настройках → Основные.
+- **Понятнее настройка.** Вставка и клавиши-модификаторы включаются, когда macOS их разрешит, поэтому выбрать то, что не работает, нельзя. Где вставку не разрешить, «Только копировать» её выключает. Отключение сервиса удаляет и его ключ.
+- **Аккуратнее.** Подписи короче, «О программе Quoth» — в окне под иконкой, «Очистить» и «Скопировать» — под текстом, зелёная галочка у моделей, которые уже на Mac.
+- **Исправления.** На Mac с британским английским перевод больше не говорит, что английский не загружен.
+]]></description>
+            <enclosure url="https://github.com/faciledictu/quoth-releases/releases/download/v0.4/Quoth-0.4.dmg" length="6915042" type="application/octet-stream" sparkle:edSignature="uXO9z2CbVISCOPt7IvNi9WV99+8aZXqe7ZaNgu2CtKA7iGfs6J9iNPfbaPaNfO/CwBc9oPyoJDXTyKze3utxAg=="/>
+        </item>
+        <item>
             <title>0.3</title>
             <pubDate>Wed, 28 Oct 2026 18:21:51 +0400</pubDate>
             <sparkle:version>3</sparkle:version>
@@ -35,16 +57,6 @@
 - **Check for updates** now lives in Settings → General.
 ]]></description>
             <enclosure url="https://github.com/faciledictu/quoth-releases/releases/download/v0.2/Quoth-0.2.dmg" length="6453563" type="application/octet-stream" sparkle:edSignature="dNiax0Ox5kH/63FQNNXYH25Sf41Lal5nSRvfrWFnCJEvbWULUQa+fvAHQxpKzDS2jPV0HN50uLcYVsJhhfdSCA=="/>
-        </item>
-        <item>
-            <title>0.1</title>
-            <pubDate>Mon, 26 Oct 2026 22:55:37 +0400</pubDate>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Initial release.
-]]></description>
-            <enclosure url="https://github.com/faciledictu/quoth-releases/releases/download/v0.1/Quoth-0.1.dmg" length="6258091" type="application/octet-stream" sparkle:edSignature="2Z6MiJNFaoMwKUqKvXZ0DaIqDkgySepAdG2BlmYZI3DR0SoB3qVI159zn3nSl7lz3Ds2ydlRd2DaPDPiESR3Ag=="/>
         </item>
     </channel>
 </rss>
