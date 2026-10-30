@@ -3,6 +3,24 @@
     <channel>
         <title>Quoth</title>
         <item>
+            <title>0.5</title>
+            <pubDate>Fri, 30 Oct 2026 14:29:43 +0400</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <description xml:lang="en" sparkle:format="markdown"><![CDATA[- **Translate into any language.** Translation has a tab of its own in Settings, with the keys on top. Pick the language under Translate Into, English by default. Any online translator writes it, and on this Mac the languages macOS knows.
+- **Your own key combination.** In the dictation key menu, Customize… records any combination you press.
+- **About Quoth** links to the privacy policy and lists the licenses of the libraries and models Quoth uses.
+- Small improvements in Settings.
+]]></description>
+            <description xml:lang="ru" sparkle:format="markdown"><![CDATA[- **Перевод на любой язык.** У перевода своя вкладка в Настройках, клавиши — сверху. Язык выбирается в «Переводить на», по умолчанию английский. Онлайн-переводчики пишут на любом, на Mac — на тех, что знает macOS.
+- **Своё сочетание клавиш.** В меню клавиши диктовки «Настроить…» запоминает любое нажатое сочетание.
+- **О программе Quoth** — ссылка на политику конфиденциальности и лицензии библиотек и моделей, которыми пользуется Quoth.
+- Мелкие улучшения в Настройках.
+]]></description>
+            <enclosure url="https://github.com/faciledictu/quoth-releases/releases/download/v0.5/Quoth-0.5.dmg" length="7010254" type="application/octet-stream" sparkle:edSignature="m8XJUyFCSt1LF1T/yPjYHT+wyzbKsG1yFWmGFbpGd0x5mvtIyiqsx+pTL/1XIF1U+fqoJsWdHUQ393rjiNZ7Cg=="/>
+        </item>
+        <item>
             <title>0.4</title>
             <pubDate>Thu, 29 Oct 2026 18:25:04 +0400</pubDate>
             <sparkle:version>4</sparkle:version>
@@ -43,20 +61,6 @@
 - **Исправления.** Прерванная загрузка модели, например из-за нехватки памяти, больше не называется повреждённой моделью. Выключенный доступ к микрофону виден сразу. Если язык перевода не загружен, Quoth ведёт в Системные настройки.
 ]]></description>
             <enclosure url="https://github.com/faciledictu/quoth-releases/releases/download/v0.3/Quoth-0.3.dmg" length="6826762" type="application/octet-stream" sparkle:edSignature="ehJfPCMMjvinpMVbCnjUeBq3b9BNpuQYA9YMrqD/cMvJmC/4Ef+f10zHOO5uTS5/KlvI1yM75Lyv5x+EQ8GTCw=="/>
-        </item>
-        <item>
-            <title>0.2</title>
-            <pubDate>Tue, 27 Oct 2026 18:51:05 +0400</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- **Translation into English.** Dictate in any language and get English text. Translate on your Mac with Apple Intelligence or macOS Translation, or online with your own OpenAI or Groq key. If a dictation can't be translated, it still arrives as you said it, with the reason shown under the text.
-- **Online services in Settings → Models.** Connect Groq or OpenAI once, add your key, and choose them for recognition, translation, or both.
-- **Settings rearranged** into General, Dictation, Recognition, and Models. Ready models and translators are marked with a green check.
-- **Paste access in one row.** Both permissions Quoth needs for pasting are requested from a single row, and you can turn off putting your clipboard back after a paste.
-- **Check for updates** now lives in Settings → General.
-]]></description>
-            <enclosure url="https://github.com/faciledictu/quoth-releases/releases/download/v0.2/Quoth-0.2.dmg" length="6453563" type="application/octet-stream" sparkle:edSignature="dNiax0Ox5kH/63FQNNXYH25Sf41Lal5nSRvfrWFnCJEvbWULUQa+fvAHQxpKzDS2jPV0HN50uLcYVsJhhfdSCA=="/>
         </item>
     </channel>
 </rss>
