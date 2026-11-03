@@ -3,6 +3,26 @@
     <channel>
         <title>Quoth</title>
         <item>
+            <title>1.1</title>
+            <pubDate>Tue, 03 Nov 2026 14:03:01 +0400</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <description xml:lang="en" sparkle:format="markdown"><![CDATA[- **Parakeet Ultra, a second model on your Mac.** About 20 times faster than Whisper Large v3 Turbo and a little less accurate. It downloads once (about 630 MB).
+- **Google translates too.** Gemini 3.5 Flash-Lite by default, or 3.8 Flash, slower and better, in Settings → Models.
+- **Pick the model and the translator right in the menu window,** along with the language to translate into.
+- **Dictation shows under the menu bar icon.** On a Mac with a notch it stays around the camera, now fitted to it exactly, or moves under the menu bar if you prefer (Settings → General).
+- A simpler recording line in the menu window, and Whisper now says it's optimizing when macOS has cleared its cache, so the longer wait is expected.
+]]></description>
+            <description xml:lang="ru" sparkle:format="markdown"><![CDATA[- **Parakeet Ultra — вторая модель на Mac.** Примерно в 20 раз быстрее Whisper Large v3 Turbo и чуть менее точная. Скачивается один раз (около 630 МБ).
+- **Google теперь и переводит.** По умолчанию Gemini 3.5 Flash-Lite, а в Settings → Models — 3.8 Flash, медленнее и лучше.
+- **Модель и переводчик выбираются прямо в окне под иконкой,** там же — язык перевода.
+- **Диктовка показывается под значком в строке меню.** На Mac с вырезом — по-прежнему вокруг камеры, теперь точно по его форме, или, по желанию, тоже под строкой меню (Settings → General).
+- Проще строка записи в окне под иконкой, а Whisper теперь пишет, что оптимизирует модель, когда macOS очистила её кэш, — долгое ожидание не сюрприз.
+]]></description>
+            <enclosure url="https://github.com/faciledictu/quoth-releases/releases/download/v1.1/Quoth-1.1.dmg" length="10204106" type="application/octet-stream" sparkle:edSignature="4hD3jem7yOYaLRo05YJ2sDeyHywf6JOjsElQKjCfV+uCcLw5Lq8bBtKuOG11KUfMobcWfEWe68p7YQmWcU7SAA=="/>
+        </item>
+        <item>
             <title>1.0</title>
             <pubDate>Fri, 30 Oct 2026 17:56:31 +0400</pubDate>
             <sparkle:version>6</sparkle:version>
@@ -31,28 +51,6 @@
 - Мелкие улучшения в Настройках.
 ]]></description>
             <enclosure url="https://github.com/faciledictu/quoth-releases/releases/download/v0.5/Quoth-0.5.dmg" length="7010254" type="application/octet-stream" sparkle:edSignature="m8XJUyFCSt1LF1T/yPjYHT+wyzbKsG1yFWmGFbpGd0x5mvtIyiqsx+pTL/1XIF1U+fqoJsWdHUQ393rjiNZ7Cg=="/>
-        </item>
-        <item>
-            <title>0.4</title>
-            <pubDate>Thu, 29 Oct 2026 18:25:04 +0400</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>0.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- **Translate by key.** Settings → Dictation has a second set of keys, Dictation Keys in English: dictate with them and the text comes out in English, with the usual keys it stays as you said it. No translation switch to forget. In the menu bar window, ⌥⌘R dictates in English.
-- **Updates.** Quoth checks for updates by itself, and a new version shows in the menu bar window as Update to Quoth…. You can turn checking off in Settings → General.
-- **Clearer setup.** Pasting and single dictation keys turn on once macOS allows them, so nothing you pick sits there doing nothing. Where pasting can't be allowed, Just Copy turns it off. Disconnecting a service removes its key too.
-- **Tidier.** Shorter captions, About Quoth in the menu bar window, Clear and Copy under the text, a green check on models already on this Mac.
-- **Fixes.** On a Mac with British English, translation no longer says English isn't downloaded.
-
----
-
-- **Перевод по клавише.** В Настройках → Диктовка есть вторая группа клавиш, «Клавиши для диктовки по-английски»: диктуете ими — текст выходит на английском, обычными — как сказано. Переключателя, который забываешь выключить, больше нет. В окне под иконкой по-английски диктует ⌥⌘R.
-- **Обновления.** Quoth сам проверяет обновления, а новая версия появляется в окне под иконкой строкой «Обновить Quoth до…». Проверку можно выключить в Настройках → Основные.
-- **Понятнее настройка.** Вставка и клавиши-модификаторы включаются, когда macOS их разрешит, поэтому выбрать то, что не работает, нельзя. Где вставку не разрешить, «Только копировать» её выключает. Отключение сервиса удаляет и его ключ.
-- **Аккуратнее.** Подписи короче, «О программе Quoth» — в окне под иконкой, «Очистить» и «Скопировать» — под текстом, зелёная галочка у моделей, которые уже на Mac.
-- **Исправления.** На Mac с британским английским перевод больше не говорит, что английский не загружен.
-]]></description>
-            <enclosure url="https://github.com/faciledictu/quoth-releases/releases/download/v0.4/Quoth-0.4.dmg" length="6915042" type="application/octet-stream" sparkle:edSignature="uXO9z2CbVISCOPt7IvNi9WV99+8aZXqe7ZaNgu2CtKA7iGfs6J9iNPfbaPaNfO/CwBc9oPyoJDXTyKze3utxAg=="/>
         </item>
     </channel>
 </rss>
