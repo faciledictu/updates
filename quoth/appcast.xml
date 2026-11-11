@@ -3,6 +3,26 @@
     <channel>
         <title>Quoth</title>
         <item>
+            <title>1.2</title>
+            <pubDate>Wed, 11 Nov 2026 12:20:09 +0400</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <description xml:lang="en" sparkle:format="markdown"><![CDATA[- **Text editing.** Quoth can strip filler words and slips of the tongue from a dictation, or rewrite it as a ready-to-send message. Needs an OpenAI, Anthropic or Google API key; turn it on in Settings → Recognition.
+- **Better punctuation in Russian.** Commas and capital letters no longer go missing when you speak fast.
+- **Keep what you copied to the clipboard.** If a dictation took its place, put it back on the clipboard from the menu bar window.
+- **A new dictation indicator** shows what Quoth is doing: listening, transcribing, editing or translating.
+- Interface improvements and bug fixes.
+]]></description>
+            <description xml:lang="ru" sparkle:format="markdown"><![CDATA[- **Редактор текста.** Quoth может убрать из диктовки слова-паразиты и оговорки или переписать её как готовое сообщение. Нужен ключ OpenAI, Anthropic или Google; включается в Настройки → Распознавание.
+- **Точнее пунктуация в русской диктовке.** Запятые и заглавные буквы больше не теряются, когда вы говорите быстро.
+- **Скопированное в буфер обмена не пропадает.** Если диктовка заняла место того, что вы скопировали, его можно вернуть в буфер из окна под иконкой.
+- **Новый индикатор диктовки:** видно, что Quoth делает сейчас — слушает, распознаёт, редактирует или переводит.
+- Улучшения интерфейса и исправления ошибок.
+]]></description>
+            <enclosure url="https://github.com/faciledictu/quoth-releases/releases/download/v1.2/Quoth-1.2.dmg" length="10435940" type="application/octet-stream" sparkle:edSignature="I1DxRv3ab32JTJA8tooYrTKo3T5X196GN4D05PPhZ2CO65qwhULyu3Nk/rzlFfy7bpGnUzZIw+OO9QQ+vCHUBQ=="/>
+        </item>
+        <item>
             <title>1.1</title>
             <pubDate>Tue, 03 Nov 2026 14:03:01 +0400</pubDate>
             <sparkle:version>7</sparkle:version>
@@ -33,24 +53,6 @@
             <description xml:lang="ru" sparkle:format="markdown"><![CDATA[- **Вышел Quoth 1.0.** Больше не бета: исправления и мелкие улучшения. Спасибо, что пробовали ранние версии!
 ]]></description>
             <enclosure url="https://github.com/faciledictu/quoth-releases/releases/download/v1.0/Quoth-1.0.dmg" length="7020896" type="application/octet-stream" sparkle:edSignature="McbWcgkg7sTtCScXaOwzNA9XUOj4KwPfbCMlK1BxectOQcVmgusC5eiUsfzBYm/Q5z5QR4XHqBsCihg4rdvMDA=="/>
-        </item>
-        <item>
-            <title>0.5</title>
-            <pubDate>Fri, 30 Oct 2026 14:29:43 +0400</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>0.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
-            <description xml:lang="en" sparkle:format="markdown"><![CDATA[- **Translate into any language.** Translation has a tab of its own in Settings, with the keys on top. Pick the language under Translate Into, English by default. Any online translator writes it, and on this Mac the languages macOS knows.
-- **Your own key combination.** In the dictation key menu, Customize… records any combination you press.
-- **About Quoth** links to the privacy policy and lists the licenses of the libraries and models Quoth uses.
-- Small improvements in Settings.
-]]></description>
-            <description xml:lang="ru" sparkle:format="markdown"><![CDATA[- **Перевод на любой язык.** У перевода своя вкладка в Настройках, клавиши — сверху. Язык выбирается в «Переводить на», по умолчанию английский. Онлайн-переводчики пишут на любом, на Mac — на тех, что знает macOS.
-- **Своё сочетание клавиш.** В меню клавиши диктовки «Настроить…» запоминает любое нажатое сочетание.
-- **О программе Quoth** — ссылка на политику конфиденциальности и лицензии библиотек и моделей, которыми пользуется Quoth.
-- Мелкие улучшения в Настройках.
-]]></description>
-            <enclosure url="https://github.com/faciledictu/quoth-releases/releases/download/v0.5/Quoth-0.5.dmg" length="7010254" type="application/octet-stream" sparkle:edSignature="m8XJUyFCSt1LF1T/yPjYHT+wyzbKsG1yFWmGFbpGd0x5mvtIyiqsx+pTL/1XIF1U+fqoJsWdHUQ393rjiNZ7Cg=="/>
         </item>
     </channel>
 </rss>
